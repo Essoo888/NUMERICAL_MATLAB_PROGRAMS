@@ -16,7 +16,7 @@ if(h > 0)
     the_start=input('enter the starting value of x =      ');
     the_end=input('enter the end value of x =      ');
     if (the_end > 0)
-        if(the_end == the_start)
+        if(the_end > the_start)
             x=the_start:h:the_end;
             fprintf('the value of x = %f  \n',x);
             y=zeros(size(x));
